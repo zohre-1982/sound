@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div>
+    <h1>خوش امدید</h1>
+     <h2>صبح همگی بخیر</h2>
+     <p> به صفحه کمیته صدا خوش آمدید</p>
+  </div>
+  <br>
+  <a href="input.html" target="_blank">ورود اعضا</a>
+  <br>
+  <br>
+  <a href="output.html" target="_blank">نتیجه کمیته</a>
+  <br>
+  <img src="./images/d778f655132bcc036d1ff974680bb45d.jpg"/>
+  <img src="./images/96811f0b047ed7319d1ff7412c8403f9.jpg"/>
+  <img src="./images/b733fc37b5be671067d887c663c38219.jpg"/>
+  <img src="./images/d80c9c58645ce334e12c051dd902a405.jpg"/>
+
+  <h3 id="first-text"> به موارد زیر دقت کنبد </h3>
+  <ol>
+    <li>نام خودرا واردنمایید</li>
+    <li>پسورد حتما انتخاب کنبد</li>
+    <li>نمونه کار باید ارسال بفرمایید</li>
+    <li>تکمبل فرم الزامی است</li>
+  </ol>
+   <h4 id="first-text"> لطفا توجه بفرمایید</h4>
+   <ul>
+    <li>زمان نتیجه مشخص نیست صبور باشید</li>
+    <li>در ترفیع شغلی پیگیری بر عهده شماست</li>
+    <li>انتقادات را شنوا هستیم</li>
+  </ul>
+  <dl>
+    <dt>شعار ما </dt>
+    <dd>رضایت شماست در هر شغلی</dd>
+    <dt>توانایی ما</dt>
+    <dd>قطب تخصصی حوزه برودکست</dd>
+  </dl>
+  <table id="1">
+    <label for="1">امتیازهای مثبت</label>
+    <thead>
+      <th>شماره</th>
+      <th>برنامه های داخل سازمان</th>
+      <th>سابقه خدمت</th>
+      <th>برنامه های خارج از سازمان</th>
+    </thead>
+    <tbody>
+      <tr>
+      <td>1</td>
+      <td>برنامه های استودیویی</td>
+      <td>5</td>
+      <td>حداقل 5 برنامه</td>
+      </tr>
+      <tr>
+      <td>2</td>
+      <td>واحدسیار</td>
+      <td>15</td>
+      <td>بالای 15 برنامه</td>
+      </tr>
+      <tr>
+      <td>3</td>
+      <td>برنامه های نمایشی</td>
+      <td>25</td>
+      <td>بالای20 یرنامه</td>
+      </tr>
+    </tbody>
+  </table>
+  <br  />
+  <table>
+    <thead>
+      <th>برنامه های سیاسی</th>
+      <th>برنامه های ورزشی</th>
+      <th>برنامه های اجتماعی</th>
+    </thead>
+    <tbody>
+      <tr>
+      <td>انتخابات</td>
+      <td>90</td>
+      <td>صبح گاهی</td>
+      </tr>
+      <tr>
+      <td>حوادث سیاسی</td>
+      <td>120</td>
+      <td>پربیننده 9 شب</td>
+      </tr>
+      <tr>
+      <td>گفتگوها</td>
+      <td>360</td>
+      <td>سریال ها</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <form>
+    <fieldset>
+      <legend>اطلاعات کاربری</legend>
+    <label for="name">نام کاربر</label>
+    <input type="text" name="name" id="name" placeholder="نام خود را واردنمایید" required/>
+    <br>
+    <label for="password">پسورد </label>
+    <input type="text" name="password" id="password" placeholder="پسورد خود را واردنمایید"required/>
+    <br> 
+    <legend>جنسیت</legend>  
+    <label for="male">مرد</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">زن</label>
+    <input type="radio" name="gender" id="female">
+    <label for="email">ایمیل</label>
+    <input type="email" name="" id="email">
+    <label for="select-num">اعداد تصادفی انتخاب کنبد</label>
+    <input type="number" name="" id="select-num">
+    <label for="pass">پسورد</label>
+    <input type="password" name="" id="pass">
+    <label for="cellphone">موبایل</label>
+    <input type="tel" name="" id="cellphone">
+    <br>
+    <label for="site-web">ادرس ایمیل تان را واردنمایید</label>
+    <input type="url" name="" id="site-web">
+  </fieldset>
+  <br>
+  <label for="yes-no">ایااطلاعات سایت هر ماه برای شما ارسال شود</label>
+   <input type="checkbox" name="yes-no" id="yes-no">
+   <br>
+   <br>
+   <input type="submit" value="ارسال"/>
+   
+   <input type="reset" value="حذف اطلاعات "/>
+   <br>
+   <br>
+   <label for="points">نظرات خود را واردنمایید</label>
+   <br>
+  
+   <br>
+   <textarea name="" id="points" cols="30" rows="10"></textarea>
+   <br>
+   <br>
+   <label for="birthday">تاریخ تولدتان را واردنمایید</label>
+   <input type="date" name="" id="birthday">
+   <br>
+   <label for="میزان رضایت">میزان رضایت از نتایج کمیته</label>
+   <input type="color" name="" id="میزان رضایت">
+   <input type="range" name="" id="" step="2" min="1">
+   <br>
+   <label for="photo">عکس و کارت ملی و نمونه کار خود را اپلود کنبد</label>
+   <input type="file" name="" id="photo" multiple>
+   <label for="degree">مدرک تحصیلی</label>
+   <select name="" id="degree">
+     <option value="1">دیپلم</option>
+     <option value="2">کارشناسی</option>
+     <option value="3">ارشد</option>
+     <option value="4">دکتری</option>
+   </select>
+   <label for="میزان حقوق">میزان حقوق</label>
+   <input type="text" name="" id="میزان حقوق" list="mylist">
+   <datalist id="mylist">
+     <option value="بالای20میلیون">بالای20میلیون</option>
+     <option value="بالای30میلیون">بالای30میلیون</option>
+     <option value="بالای40میلیون">بالای40میلیون</option>
+   </datalist>
+  </form> 
+</body>
+<br>
+<footer>
+  تماس با ما 
+  <br>
+  آدرس و ایمیل 
+  <br>
+  از همکاری شما سپاسگزاریم
+</footer>
+</html> 

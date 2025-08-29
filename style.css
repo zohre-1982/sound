@@ -1,0 +1,32 @@
+a{text-decoration: underline;
+  }
+  table{ border-collapse: collapse;
+  }
+  th{border: solid;
+  }
+  td{border: solid;text-align: center;
+  }
+  th{ border: solid;
+  }
+  div{background-color: yellowgreen; text-align: center; 
+  }
+  span{text-decoration-color:yellowgreen;
+  }
+  footer{ direction: rtl;
+  }
+  nav{text-align: center;text-decoration: underline; text-decoration-color: yellowgreen;
+  }
+  aside{text-align: left;text-decoration: yellowgreen;
+  }
+  footer{text-align: left;text-decoration: blue;
+  }
+  #first-text{ color: green;font-size: large;
+  }
+  h2:hover{color: gold;}
+  h1:hover{color: gold;}
+  p:hover{color:gold;}
+  img{border-radius: 20px; border-style:inset;}
+  /* body{background-image:url("../images/IMG_۲۰۲۰۰۷۱۰_۱۵۳۸۲۴.jpg"); background-repeat:no-repeat; background-color: rgb(206, 177, 125); background-size: cover; background-position: center center;background-attachment: fixed;color;}  */
+  body{background-color: rgb(206, 177, 125); background-size: cover; background-position: center center;background-attachment: fixed;color;} 
+  footer{background-image: url("../images/IMG_۲۰۲۴۰۵۰۱_۱۵۴۷۳۹.jpg"); width: 100%;height: auto;text-align: right;}
+  a:hover{color: black;}
